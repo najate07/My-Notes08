@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/delayRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/delay5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 secondes"/>
+        <RadioButton
+            android:id="@+id/delay10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 secondes"/>
+        <RadioButton
+            android:id="@+id/delay15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 secondes"/>
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/minorSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inclure accords mineurs"/>
+
+    <Switch
+        android:id="@+id/sharpFlatSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inclure accords bémol et dièse"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Démarrer"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Réinitialiser"/>
+
+    <TextView
+        android:id="@+id/chordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accord"
+        android:textSize="24sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
